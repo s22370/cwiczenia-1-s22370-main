@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>cwiczenia_1_s22370_main</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+    <Compile Remove="cwiczenia-1-s22370\obj\Debug\**" />
+    <Compile Remove="cwiczenia-1-s22370\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="cwiczenia-1-s22370\obj\Debug\**" />
+    <EmbeddedResource Remove="cwiczenia-1-s22370\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="cwiczenia-1-s22370\obj\Debug\**" />
+    <None Remove="cwiczenia-1-s22370\obj\**" />
+  </ItemGroup>
+
+</Project>
